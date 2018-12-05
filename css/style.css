@@ -100,6 +100,9 @@ html {
   font-weight: 500;
   color: inherit; }
 
+.main-header .banner > .date {
+  font-size: 2.5rem; }
+
 .main-header .banner > .image {
   width: 25rem;
   margin-top: -40px; }
