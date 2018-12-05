@@ -5,21 +5,32 @@
   height: 90vh;
   vertical-align: middle;
   text-align: center;
+
+  position: relative;
 }
 
-.main-header .title {
+.main-header > .banner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.main-header .banner > .title {
   font-family: "noelan";
-  font-size: 2rem;
-  word-spacing: .8rem;
+  font-size: 4rem;
   font-weight: 500;
   color: inherit;
 }
 
-.main-header img {
-  width: 10rem;
+.main-header .banner > .image {
+  width: 25rem;
+  margin-top: -40px;
 
   &.top {
     transform: rotate(178deg);
+    margin-bottom: -20px;
   }
 }
 

@@ -47,10 +47,37 @@ body {
   box-sizing: border-box; }
 
 html {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 1.6rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
   color: #FFF; }
+
+.main-nav {
+  color: #212529;
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e5e5e5;
+  transition: all .1s; }
+
+.main-nav ul li {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 2rem;
+  padding: 14px 0; }
+
+.main-nav ul li:hover {
+  border-bottom: 1px solid #000; }
+
+.main-nav ul li a {
+  padding: 0 14px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 16px;
+  border-bottom: 1px solid #fff;
+  letter-spacing: 0.5px; }
 
 .main-header {
   background-image: url(../../img/hero.jpg);
@@ -58,16 +85,24 @@ html {
   background-position: top center;
   height: 90vh;
   vertical-align: middle;
-  text-align: center; }
+  text-align: center;
+  position: relative; }
 
-.main-header .title {
+.main-header > .banner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+.main-header .banner > .title {
   font-family: "noelan";
-  font-size: 2rem;
-  word-spacing: .8rem;
+  font-size: 4rem;
   font-weight: 500;
   color: inherit; }
 
-.main-header img {
-  width: 10rem; }
-  .main-header img.top {
-    transform: rotate(178deg); }
+.main-header .banner > .image {
+  width: 25rem;
+  margin-top: -40px; }
+  .main-header .banner > .image.top {
+    transform: rotate(178deg);
+    margin-bottom: -20px; }

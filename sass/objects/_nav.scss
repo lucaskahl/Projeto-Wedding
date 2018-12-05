@@ -1,0 +1,30 @@
+.main-nav {
+  color: $primary-dark-color;
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+
+  text-transform: uppercase;
+  border-bottom: 1px solid #e5e5e5;
+  transition: all .1s;
+
+}
+
+.main-nav ul li {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 2rem;
+  padding: 14px 0;
+}
+
+.main-nav ul li:hover {
+  border-bottom: 1px solid #000;
+}
+
+.main-nav ul li a {
+  padding: 0 14px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 16px;
+  border-bottom: 1px solid #fff;
+	letter-spacing: 0.5px;
+}
