@@ -3,17 +3,24 @@
   background-size: cover;
   background-position: top center;
   height: 90vh;
-
+  vertical-align: middle;
   text-align: center;
 }
 
-.main-header > .title {
+.main-header .title {
   font-family: "noelan";
   font-size: 2rem;
   word-spacing: .8rem;
   font-weight: 500;
-  line-height: 1.2;
-
   color: inherit;
 }
+
+.main-header img {
+  width: 10rem;
+
+  &.top {
+    transform: rotate(178deg);
+  }
+}
+
 
