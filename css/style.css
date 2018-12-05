@@ -1,3 +1,38 @@
+/*----------------------------------------------------
+	Author:			theme_div
+	Primary color:	#ffd7d7 (pink)
+
+
+	[Table of contents]
+	1. General
+		1.1 Animations
+		1.2 Icons
+	2. Utilities
+	3. Hero
+	4. Navigation
+		4.1. Mobile navigation
+	5. Intro
+		5.1. Counter
+	6. Story timeline
+	7. Bridesmaids & Groomsmen
+		7.1. Slider
+	9. Location
+	10. RSVP
+	11. Memories
+		11.1. Masonry
+	12. Footer
+
+----------------------------------------------------*/
+@font-face {
+  font-family: noelan;
+  src: url(../../fonts/noelan/noelan.woff2); }
+
+.text-center {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%; }
+
 *,
 *::after,
 *::before {
@@ -14,9 +49,20 @@ body {
 html {
   font-family: "Cormorant Garamond", serif;
   font-size: 1.6rem;
-  font-weight: 400; }
+  font-weight: 400;
+  color: #FFF; }
 
 .main-header {
-  background-image: url(./img/hero.jpg);
-  width: 100vh;
-  height: 20px; }
+  background-image: url(../../img/hero.jpg);
+  background-size: cover;
+  background-position: top center;
+  height: 90vh;
+  text-align: center; }
+
+.main-header > .title {
+  font-family: "noelan";
+  font-size: 2rem;
+  word-spacing: .8rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit; }

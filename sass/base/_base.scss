@@ -1,0 +1,34 @@
+/*----------------------------------------------------
+	Author:			theme_div
+	Primary color:	#ffd7d7 (pink)
+
+
+	[Table of contents]
+	1. General
+		1.1 Animations
+		1.2 Icons
+	2. Utilities
+	3. Hero
+	4. Navigation
+		4.1. Mobile navigation
+	5. Intro
+		5.1. Counter
+	6. Story timeline
+	7. Bridesmaids & Groomsmen
+		7.1. Slider
+	9. Location
+	10. RSVP
+	11. Memories
+		11.1. Masonry
+	12. Footer
+
+----------------------------------------------------*/
+
+$primary-color: #ffd7d7;
+$primary-color-dark: darken(#ffd7d7, 5);
+$color-white: #FFF;
+
+@font-face {
+    font-family: noelan;
+    src: url(../../fonts/noelan/noelan.woff2);
+}
