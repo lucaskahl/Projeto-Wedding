@@ -106,18 +106,19 @@ img {
 .about-us .couple .content {
   display: inline-block;
   margin: 3px;
-  position: relative;
-  overflow: hidden; }
+  position: relative; }
+
+.about-us .couple .content:hover {
+  background-color: pink; }
 
 .about-us .couple .content .image {
   content: "";
   max-width: 545px;
   min-width: 545px;
   min-height: 360px;
-  max-height: 360px; }
-
-.about-us .couple .content .image:hover {
-  background-color: blue; }
+  max-height: 360px;
+  cursor: pointer;
+  transition: background-color 1s linear; }
 
 .about-us .couple .content .image.-woman {
   background-image: url(../../img/bride.jpg);
@@ -138,8 +139,7 @@ img {
   left: 50%;
   top: 50%;
   width: 100%;
-  transform: translate(-50%, -50%);
-  opacity: 0; }
+  transform: translate(-50%, -50%); }
 
 .about-us .couple .content .text > h3 {
   font-size: 30px;

@@ -40,8 +40,9 @@
   margin: 3px;
 
   position: relative;
-  overflow: hidden;
-
+}
+.about-us .couple .content:hover{
+  background-color: pink;
 }
 
 .about-us .couple .content .image {
@@ -51,10 +52,10 @@
 
   min-height: 360px;
   max-height: 360px;
-}
 
-.about-us .couple .content .image:hover {
-  background-color: blue;
+  cursor: pointer;
+
+  transition: background-color 1s linear;
 }
 
 .about-us .couple .content .image.-woman {
@@ -82,9 +83,6 @@
   top: 50%;
   width: 100%;
   transform: translate(-50%, -50%);
-  
-  opacity: 0;
-
 }
 
 .about-us .couple .content .text > h3 {
