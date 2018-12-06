@@ -19,22 +19,23 @@
 
 .main-header .banner > .title {
   font-family: "noelan";
-  font-size: 4rem;
+  font-size: 52px;
   font-weight: 500;
   color: inherit;
 }
 
 .main-header .banner > .date {
-  font-size: 2.5rem;
+  font-size: 28px;
+  font-weight: 700;
 }
 
 .main-header .banner > .image {
-  width: 25rem;
+  width: 300px;
   margin-top: -40px;
 
   &.top {
-    transform: rotate(178deg);
-    margin-bottom: -20px;
+    transform: rotate(180deg);
+    margin-bottom: -30px;
   }
 }
 

@@ -1,13 +1,12 @@
+@import "./generic/reset";
+
 @import "./base/base";
 @import "./base/utilities";
 
-@import "./settings/reset";
-@import "./settings/typography";
-
-//@import "./generic/";
-
 @import "./objects/nav";
 @import "./objects/about";
+
+@import "./settings/typography";
 
 @import "./components/header";
 

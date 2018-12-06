@@ -2,7 +2,7 @@
   "name": "projetowedding",
   "version": "1.0.0",
   "description": "Small project to master my front-end",
-  "main": "index.js",
+  "main": "",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
     "devserver": "live-server",
