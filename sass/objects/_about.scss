@@ -15,14 +15,25 @@
   position: relative;
 }
 
-.heart {
+.about-us .couple > .heart {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 70px;
   height: 70px;
+
+  fill: #ffffff;
+
+  transition: fill .7s;
+  cursor: pointer;
 }
+
+.about-us .couple > .heart:hover {
+  fill: pink;
+}
+
+
 
 .about-us .couple .content {
   display: inline-block;
