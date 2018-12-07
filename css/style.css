@@ -50,6 +50,29 @@ img {
   width: 100%;
   height: 50rem; }
 
+.overlay {
+  position: relative; }
+
+.overlay:before {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 0; }
+
+.overlay:hover:before {
+  display: block; }
+
+.pink:before {
+  background-color: pink; }
+
+.box * {
+  position: relative;
+  /* hack */ }
+
 .main-nav {
   color: #212529;
   text-align: center;
@@ -108,9 +131,6 @@ img {
   margin: 3px;
   position: relative; }
 
-.about-us .couple .content:hover {
-  background-color: pink; }
-
 .about-us .couple .content .image {
   content: "";
   max-width: 545px;
@@ -143,10 +163,13 @@ img {
   opacity: 0;
   transition: opacity .5s; }
 
-.about-us .couple .content .text > h3 {
+.about-us .couple .content .text h3 {
+  font-family: 'Cormorant Garamond', serif !important;
   font-size: 30px;
   text-align: left;
-  margin-bottom: 20px; }
+  font-weight: 600;
+  font-style: initial;
+  margin-bottom: 15px; }
 
 .about-us .couple .content .text > p {
   font-size: 18px; }
