@@ -32,7 +32,7 @@
 }
 
 .about-us .couple > .heart:hover {
-  fill: pink;
+  fill: $color-pink;
 }
 
 .about-us .couple .content {
@@ -71,7 +71,8 @@
 .about-us .couple .content .text {
   text-align: left;
   color: black;
-  padding: 35px 60px;
+  height: 100%;
+  padding: 90px 60px;
 
   text-align: justify;
 
@@ -100,9 +101,11 @@
 }
 
 .about-us .couple .content .text:hover {
-
   opacity: 1;
-  z-index: 50;
-  
+  background-color: $color-pink;
 }
 
+.about-us .couple .content .grey:hover {
+  opacity: 1;
+  background-color: $color-grey;
+}
