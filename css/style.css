@@ -62,17 +62,19 @@ img {
   display: inline-block;
   cursor: pointer;
   margin-left: 2rem;
-  padding: 14px 0; }
+  padding: 14px 0;
+  border-bottom: 1px solid transparent;
+  transition: border .3s; }
 
 .main-nav .nav > .item:hover {
-  border-bottom: 1px solid #000; }
+  border-bottom-color: #000; }
 
 .main-nav .nav .item > .link {
   padding: 0 14px;
   text-decoration: none;
   color: inherit;
   font-size: 16px;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid transparent;
   letter-spacing: 0.5px; }
 
 .about-us {
