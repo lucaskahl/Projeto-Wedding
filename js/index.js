@@ -1,7 +1,7 @@
 
 /* Tempo Casamento */
 
-var countDownDate = new Date("Jan 5, 2019 15:37:25").getTime();
+var countDownDate = new Date("Jan 5, 2020 15:37:25").getTime();
 
 var x = setInterval(() => {
   
@@ -13,12 +13,14 @@ var x = setInterval(() => {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  document.getElementById("days").innerHTML = `${days}`;
+  document.getElementById("hours").innerHTML = `${hours}`;
+  document.getElementById("minutes").innerHTML = `${minutes}`;
+  document.getElementById("seconds").innerHTML = `${seconds}`;
 
   if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "expirado";
+    clearInterval(x); 
+    document.getElementById("date").innerHTML = "expirado";
   }
 
 

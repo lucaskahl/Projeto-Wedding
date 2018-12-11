@@ -162,6 +162,28 @@ img {
   opacity: 1;
   background-color: #fbfbfa; }
 
+.counter-date {
+  margin-top: 25px;
+  width: 1000px;
+  display: block;
+  margin: 0 auto;
+  color: black; }
+
+.counter-date > ul {
+  font-size: 20px;
+  list-style: none;
+  margin-left: 70px; }
+
+.counter-date ul > .date {
+  display: inline-block;
+  font-family: "Cormorant Garamond", serif; }
+
+.counter-date ul .date > span {
+  font-size: 42px; }
+
+.counter-date ul .date > p {
+  font-size: 22px; }
+
 html {
   font-family: 'Cormorant Garamond', serif;
   font-size: 18px;
