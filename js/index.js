@@ -1,28 +1,38 @@
 
-/* Tempo Casamento */
+/* Start CountDown Casamento */
 
-var countDownDate = new Date("Jan 5, 2020 15:37:25").getTime();
+let countDown = (date) => {
 
-var x = setInterval(() => {
-  
-  var now = new Date().getTime();
-  var distance = countDownDate - now;
+let countDownDate = new Date(date).getTime();
 
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  let x = setInterval(() => {
+    
+    let now = new Date().getTime();
+    let distance = countDownDate - now;
 
-  document.getElementById("days").innerHTML = `${days}`;
-  document.getElementById("hours").innerHTML = `${hours}`;
-  document.getElementById("minutes").innerHTML = `${minutes}`;
-  document.getElementById("seconds").innerHTML = `${seconds}`;
+    let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  if (distance < 0) {
-    clearInterval(x); 
-    document.getElementById("date").innerHTML = "expirado";
-  }
+    document.getElementById("days").innerHTML = `${days}`;
+    document.getElementById("hours").innerHTML = `${hours}`;
+    document.getElementById("minutes").innerHTML = `${minutes}`;
+    document.getElementById("seconds").innerHTML = `${seconds}`;
+
+    if (distance < 0) {
+      clearInterval(x); 
+      document.getElementById("date").innerHTML = "expirado";
+    }
 
 
-}, 1000);
+  }, 1000);
+
+}
+
+countDown("Jan 1, 2019 19:00:00");
+
+
+
+/* End Timing Casamento */
 

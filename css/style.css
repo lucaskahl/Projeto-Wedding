@@ -167,7 +167,8 @@ img {
   width: 1000px;
   display: block;
   margin: 0 auto;
-  color: black; }
+  color: black;
+  display: inline-block; }
 
 .counter-date > ul {
   font-size: 20px;
@@ -176,13 +177,29 @@ img {
 
 .counter-date ul > .date {
   display: inline-block;
-  font-family: "Cormorant Garamond", serif; }
+  font-family: "Cormorant Garamond", serif;
+  position: relative;
+  padding: 20px;
+  text-align: center; }
 
 .counter-date ul .date > span {
   font-size: 42px; }
 
 .counter-date ul .date > p {
-  font-size: 22px; }
+  font-size: 22px;
+  font-weight: 300;
+  font-style: initial;
+  line-height: 0.5;
+  margin-top: 10px; }
+
+.counter-date ul .date > .miniheart {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  fill: #ffd7d7;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%); }
 
 html {
   font-family: 'Cormorant Garamond', serif;

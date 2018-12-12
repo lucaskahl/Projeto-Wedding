@@ -5,6 +5,7 @@
   display: block;
   margin: 0 auto;
   color: black;
+  display: inline-block;
 }
 
 .counter-date > ul {
@@ -19,6 +20,9 @@
 
   display: inline-block;
   font-family: "Cormorant Garamond", serif; 
+  position: relative;
+  padding: 20px;
+  text-align: center;
 }
 
 .counter-date ul .date > span {
@@ -27,5 +31,18 @@
 
 .counter-date ul .date > p {
   font-size: 22px;
-  
+  font-weight: 300;
+  font-style: initial;
+  line-height: 0.5;
+  margin-top: 10px;
+}
+
+.counter-date ul .date > .miniheart {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  fill: $color-pink;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
 }
