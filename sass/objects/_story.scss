@@ -1,9 +1,8 @@
 .container {
   background-color: #fbfbfa;
-  box-sizing: border-box;
 }
 
-.story-timeline {
+.container .story-timeline {
   max-width: 920px;
   color: black;
   display: block;
@@ -11,25 +10,36 @@
   height: 1200px;
 }
 
-.story-timeline > .title {
+.container .story-timeline > .title {
+  padding-top: -30px;
+}
+
+
+.container .story-timeline > .title h2 {
   text-align: center;
   font-family: "noelan", sans-serif;
   word-spacing: 8px;
   font-weight: 400;
-  margin-top: -30px;
 }
 
-.story-timeline .story {  
-  max-width: 50%;
+.container .story-timeline .story {  
   padding: 50px 0;
+  position: relative;
+  max-width: 1140px;
 }
 
-.story-timeline .storyleft {
+.container .story-timeline .story > .main {
+  max-width: 50%;
+}
+
+.container .story-timeline .story > .storyleft {
   float: left;
+  padding-right: 45px;
 }
 
-.story-timeline .storyright {
+.container .story-timeline .story > .storyright {
   float: right;
+  padding-left: 45px;
 }
 
 .story-timeline img {
@@ -43,5 +53,6 @@
 }
 
 .story-timeline > .text {
+  padding: 50px 0;
   text-align: right;
 }
