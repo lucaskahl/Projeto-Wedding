@@ -7,6 +7,10 @@
   border-bottom: 1px solid #e5e5e5;
   transition: all .1s;
 
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
 }
 
 .main-nav .nav > .item {

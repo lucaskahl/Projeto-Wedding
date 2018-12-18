@@ -56,7 +56,11 @@ img {
   font-family: "Cormorant Garamond", serif;
   text-transform: uppercase;
   border-bottom: 1px solid #e5e5e5;
-  transition: all .1s; }
+  transition: all .1s;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white; }
 
 .main-nav .nav > .item {
   display: inline-block;

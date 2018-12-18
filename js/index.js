@@ -48,7 +48,7 @@ let countDownDate = new Date(date).getTime();
 
 }
 
-countDown("Jan 1, 2019 19:00:00");
+countDown("Jan 1, 2020 19:00:00");
 
 
 
