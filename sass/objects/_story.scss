@@ -15,7 +15,7 @@
 }
 
 
-.container .story-timeline > .title h2 {
+.container .story-timeline .title > h2 {
   text-align: center;
   font-family: "noelan", sans-serif;
   word-spacing: 8px;
@@ -35,6 +35,17 @@
 .container .story-timeline .story > .storyleft {
   float: left;
   padding-right: 45px;
+  position: relative;
+}
+
+.container .story-timeline .story > .storyleft::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #dfdfdf;
 }
 
 .container .story-timeline .story > .storyright {
@@ -45,14 +56,58 @@
 .story-timeline img {
   max-width: 100%;
   height: auto;
-  width: 340px;
+  width: 100%;
 }
 
-.story-timeline .text > .title {
-  text-align: center;
-}
-
-.story-timeline > .text {
+.story-timeline .story .main > .text {
   padding: 50px 0;
+}
+
+.story-timeline .story .main .text h4 {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.story-timeline .story .storyleft .text > h4 {
+  padding-right: 78px;
+}
+
+.story-timeline .story .storyleft .text > h4::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background: #dfdfdf;
+    left: -33px;
+    width: 26px;
+    top: 14px;
+    width: 100px;
+    left: auto;
+    right: -33px;
+}
+
+
+.story-timeline .story .storyright .text > h4 {
+  padding-left: 78px;
+}
+
+.story-timeline .story .storyright .text > h4::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background: #dfdfdf;
+    left: -33px;
+    width: 26px;
+    top: 14px;
+    width: 100px;
+}
+
+.story-timeline .story .storyleft .text {
   text-align: right;
 }
+
+.story-timeline .story .storyright .text {
+  text-align: left;
+}
+

@@ -35,4 +35,3 @@ countDown("Jan 1, 2019 19:00:00");
 
 
 /* End Timing Casamento */
-
