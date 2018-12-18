@@ -116,8 +116,7 @@ img {
   min-width: 545px;
   min-height: 360px;
   max-height: 360px;
-  cursor: pointer;
-  transition: background-color 1s linear; }
+  cursor: pointer; }
 
 .about-us .couple .content .image.-woman {
   background-image: url(../../img/bride.jpg);
@@ -141,7 +140,7 @@ img {
   width: 100%;
   transform: translate(-50%, -50%);
   opacity: 0;
-  transition: opacity .5s; }
+  transition: all .5s; }
 
 .about-us .couple .content .text h3 {
   font-family: 'Cormorant Garamond', serif !important;
@@ -210,7 +209,7 @@ img {
   color: black;
   display: block;
   margin: 0 auto;
-  height: 1200px; }
+  height: 1150px; }
 
 .container .story-timeline > .title {
   padding-top: -30px;

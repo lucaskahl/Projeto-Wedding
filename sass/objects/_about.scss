@@ -51,8 +51,6 @@
   max-height: 360px;
 
   cursor: pointer;
-
-  transition: background-color 1s linear;
 }
 
 .about-us .couple .content .image.-woman {
@@ -84,7 +82,7 @@
 
   opacity: 0;
 
-  transition: opacity .5s;
+  transition: all .5s;
 }
 
 .about-us .couple .content .text h3 {

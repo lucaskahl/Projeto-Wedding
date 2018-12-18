@@ -1,3 +1,21 @@
+/* Smooth Scroll */
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+          block: 'start',
+          behavior: 'smooth'
+      });
+  });
+});
+
+
+
+/* End of Smooth Scroll*/
+
+
 
 /* Start CountDown Casamento */
 
@@ -26,7 +44,7 @@ let countDownDate = new Date(date).getTime();
     }
 
 
-  }, 1000);
+  }, 1);
 
 }
 
@@ -35,3 +53,6 @@ countDown("Jan 1, 2019 19:00:00");
 
 
 /* End Timing Casamento */
+
+
+
