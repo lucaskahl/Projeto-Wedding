@@ -202,7 +202,8 @@ img {
   transform: translate(-50%, -50%); }
 
 .container {
-  background-color: #fbfbfa; }
+  background-color: #fbfbfa;
+  position: relative; }
 
 .container .story-timeline {
   max-width: 920px;
@@ -212,7 +213,11 @@ img {
   height: 1200px; }
 
 .container .story-timeline > .title {
-  padding-top: -30px; }
+  padding-top: -30px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%); }
 
 .container .story-timeline .title > h2 {
   text-align: center;
@@ -259,6 +264,25 @@ img {
   font-size: 24px;
   margin-bottom: 15px;
   position: relative; }
+
+.container .story-timeline .story .main .text .miniheart {
+  width: 20px;
+  fill: #ffd7d7;
+  padding: 3px 0;
+  margin-top: 2px;
+  background-color: #fbfbfa;
+  z-index: 30; }
+
+.story-timeline .story .storyleft .text .miniheart {
+  position: absolute;
+  top: 0;
+  left: 449px;
+  margin-right: auto; }
+
+.story-timeline .story .storyright .text .miniheart {
+  position: absolute;
+  top: 0;
+  left: -55px; }
 
 .story-timeline .story .storyleft .text > h4 {
   padding-right: 78px; }
