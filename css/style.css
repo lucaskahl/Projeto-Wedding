@@ -353,6 +353,52 @@ img {
   color: black;
   text-align: center; }
 
+.container {
+  padding-top: 20px; }
+
+.main-footer {
+  height: 250px;
+  background-color: #fbfbfa;
+  font-size: 25px;
+  font-family: "noelan", sans-serif; }
+
+.main-footer h2 {
+  text-align: center;
+  color: black;
+  font-weight: 400;
+  margin-top: 40px; }
+
+.main-footer .miniheart {
+  width: 20px;
+  fill: #ffd7d7; }
+
+.main-footer .socials {
+  color: black;
+  font-family: "Cormorant Garamond", serif; }
+
+.main-footer .socials {
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+  position: relative; }
+
+.main-footer .socials ul {
+  width: 80px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px; }
+
+.main-footer .socials ul li {
+  display: inline-block;
+  text-align: center; }
+
+.main-footer .socials ul li a svg {
+  fill: black; }
+
+.main-footer .socials p {
+  text-align: center;
+  font-size: 18px; }
+
 html {
   font-family: 'Cormorant Garamond', serif;
   font-size: 18px;
