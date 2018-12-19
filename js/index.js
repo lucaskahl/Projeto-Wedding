@@ -48,11 +48,19 @@ let countDownDate = new Date(date).getTime();
 
 }
 
-countDown("Jan 1, 2020 19:00:00");
-
-
+countDown("Jan 1, 2020 19:00:0  0");
 
 /* End Timing Casamento */
 
+
+/* Start Slider */
+
+let sliders = document.querySelectorAll('.slider li');
+let atual = 0;
+
+let total = sliders.length - 1;
+
+
+/* End Slider */
 
 
