@@ -1,21 +1,23 @@
 .container {
   padding-top: 20px;
+  width: 100%;
+  clear: both;
+  padding-top: 20px;
 }
 
 .main-footer {
   height: 250px;
   background-color: #fbfbfa;
-
+  width: 100%;
   font-size: 25px;
   font-family: "noelan", sans-serif;
 }
 
-.main-footer h2 {
+.main-footer > h2 {
   text-align: center;
   color: black;
   font-weight: 400;
-
-  margin-top: 40px;
+  width: 100%;
 }
 
 .main-footer .miniheart {

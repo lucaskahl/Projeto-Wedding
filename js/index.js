@@ -48,7 +48,7 @@ let countDownDate = new Date(date).getTime();
 
 }
 
-countDown("Jan 1, 2020 19:00:0  0");
+countDown("Jan 1, 2020 12:00:0  0");
 
 /* End Timing Casamento */
 
