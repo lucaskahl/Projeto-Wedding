@@ -1,0 +1,35 @@
+.location-section {
+  color: black;
+  height: 1050px;
+}
+
+.location-section .container {
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.location-section .container .left {
+  width: 50%;
+  float: left;
+}
+
+.location-section .container .right {
+  width: 50%;
+  float: right;
+}
+
+.location-section .container .info {
+  padding: 15px;
+}
+
+.location-section .container .info .text {
+  padding: 30px;
+}
+
+.location-section .container img {
+  max-width: 90%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+}
