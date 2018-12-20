@@ -1,0 +1,38 @@
+.quote-section {
+  font-family: 'Cormorant Garamond', italic;
+  color: black;
+  padding: 90px 0;
+  position: relative;
+}
+
+.quote-section .container {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.quote-section .container h3 {
+  font-size: 28px;
+  line-height: 1.5;
+  text-align: center;
+  font-weight: 400;
+}
+
+.quote-section::before {
+  top: 10px;
+}
+
+.quote-section::after {
+  bottom: 10px;
+}
+
+.quote-section::before, .quote-section::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #e5e5e5;
+}
+
+.quote-section::after {
+
+}
