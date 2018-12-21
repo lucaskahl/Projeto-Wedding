@@ -1,0 +1,14 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.gallery img {
+  border: 10px solid #fbfbfa;
+  max-width: 100%;
+  height: auto;
+}
