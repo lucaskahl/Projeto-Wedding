@@ -469,6 +469,99 @@ img {
   font-family: 'Cormorant Garamond';
   font-weight: 200; }
 
+.rsvp-section {
+  background-image: url(../img/rsvp-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 90px 0;
+  clear: both;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  font-family: "Cormorant Garamond"; }
+
+.rsvp-section .container {
+  max-width: 1140px;
+  padding-top: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.rsvp-section .container .boxform {
+  background-color: white;
+  width: 100%;
+  height: 440px;
+  position: relative; }
+
+.rsvp-section .container .boxform > .title {
+  color: black;
+  text-align: center;
+  font-family: "noelan", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  word-spacing: 8px;
+  padding-top: 20px; }
+
+.rsvp-section .container .boxform > .subtitle {
+  color: black;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.rsvp-section .container .boxform .content .left {
+  width: 50%;
+  float: left;
+  height: 200px; }
+
+.rsvp-section .container .boxform .content .left input, .rsvp-section .container .boxform .content .left select {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  padding: 10px;
+  outline: none;
+  font-size: 18px;
+  font-family: inherit;
+  background-color: transparent;
+  border: none;
+  border-radius: 0 !important;
+  border-bottom: 1px solid black; }
+
+.rsvp-section .container .boxform .right {
+  width: 50%;
+  float: right; }
+
+.rsvp-section .container .boxform .content .right textarea {
+  height: 200px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  padding: 10px;
+  outline: none;
+  font-size: 18px;
+  font-family: inherit;
+  background-color: transparent;
+  border: 1px solid black; }
+
+.rsvp-section .container .btn {
+  clear: both;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 300px;
+  height: 40px;
+  background-color: #ffd7d7;
+  border: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: inherit; }
+
 .container {
   padding-top: 20px;
   width: 100%;
