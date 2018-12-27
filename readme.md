@@ -1,3 +1,5 @@
+![Preview](https://i.imgur.com/kkpj4yO.jpg)
+
 # Wedding website
 
 - HTML
@@ -26,7 +28,7 @@
 -- npm run build:css
 
 
-### Front made by: Lucas
+### Made by: Lucas
 
 Layout: http://themediv.com/
 
