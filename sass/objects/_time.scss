@@ -45,3 +45,13 @@
   left: 100%;
   transform: translate(-50%, -50%);
 }
+
+@media (max-width: $bp-mobile) {
+  .counter-date > ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+  }
+}

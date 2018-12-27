@@ -111,6 +111,11 @@
   .location-section .container .left .info, .location-section .container .info {
     max-width: 100%;
   }
-
   
+}
+
+@media (max-width: $bp-mobile-small) {
+  .location-section {
+    margin: 50px;
+  }
 }

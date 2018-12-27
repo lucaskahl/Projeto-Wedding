@@ -121,6 +121,10 @@
     width: 545px;
     transform: none;
     opacity: 1;
+
+    max-width: 100vw;
+    min-height: 360px;
+    max-height: 360px;
   }
 
   .about-us .couple .content .pink {

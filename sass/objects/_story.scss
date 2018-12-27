@@ -145,7 +145,7 @@
 @media (max-width: $bp-mobile) {
   
   .container .story-timeline .story > .main {
-    max-width: 50%;
+    max-width: 60%;
     margin: 0 auto;
   }
 
@@ -173,7 +173,13 @@
   .container .story-timeline .story .main .text .miniheart, .container .story-timeline .story > .storyleft::after, .story-timeline .story .storyleft .text > h4::before, .story-timeline .story .storyright .text > h4::before {
     display: none;
   }
+}
 
+@media (max-width: $bp-mobile-small) {
+  .container .story-timeline .story > .main {
+      max-width: 75%;
+      margin: 0 auto;
+  }
 }
 
 

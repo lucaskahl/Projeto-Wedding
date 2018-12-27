@@ -41,6 +41,7 @@
 
 
 @media (max-width: $bp-mobile) {
+  
   .main-header {
     height: 40vh;
     position: relative;
@@ -51,6 +52,18 @@
     width: 1px;
     height: 1px;
     background-color: white;
+  }
+
+  .main-header .banner > .image {
+    width: 211px;
+  }
+
+  .main-header .banner > .title {
+    font-size: 35px;
+  }
+  
+  .main-header .banner > .date {
+    font-size: 24px;
   }
 }
 
