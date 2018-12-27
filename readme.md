@@ -1,10 +1,32 @@
-# Project to do a wedding website
-## Just for fun
+# Wedding website
 
 - HTML
-- CSS ( SASS )
+- CSS
+  - RESPONSIVE
   - ITCSS
   - RSCSS
+  - SASS
+  - FLOAT, FLEX and GRID
 - JS
+  - DOM Manipulate
+  - ES6
+  - NODE
+  - NODE Scripts
 
-Base: http://themediv.com/lamore-preview/lamore/lamore/
+## Execute with developer server
+
+- Install the project, unzip it to a folder and with node install the dependencies
+-- npm install
+
+- Run the project with:
+-- npm run start
+
+## Build css
+
+-- npm run build:css
+
+
+### Front made by: Lucas
+
+Layout: http://themediv.com/
+
