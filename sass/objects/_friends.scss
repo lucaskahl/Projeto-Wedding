@@ -1,5 +1,6 @@
 .friends-section {
   margin: 100px 0;
+  clear: both;
 }
 
 .friends-section > .title {
@@ -14,15 +15,18 @@
 
 .friends-section .list {
   list-style: none;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.friends-section .list .slider .item {
+.friends-section .list .item {
   width: 265px;
   display: inline-block;
 }
 
-.friends-section .list .slider .item img {
+.friends-section .list .item img {
   max-width: 200px;
   border-radius: 50%;
   box-shadow: 4px 21px 29px -8px rgba(161,161,161,1);
@@ -31,8 +35,12 @@
   margin-bottom: 20px;
 }
 
-.friends-section .list .slider .item p {
+.friends-section .list .item p {
   color: black;
   text-align: center;
 }
 
+
+@media (max-width: $bp-mobile) {
+
+}

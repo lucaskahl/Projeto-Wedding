@@ -23,6 +23,10 @@
   transition: border .3s;
 }
 
+.main-nav .nav > .item:last-child {
+  margin-right: 2rem;
+}
+
 .main-nav .nav > .item:hover {
   border-bottom-color:#000;
 }
@@ -34,4 +38,11 @@
   font-size: 16px;
   border-bottom: 1px solid transparent;
 	letter-spacing: 0.5px;
+}
+
+
+@media (max-width: $bp-mobile) {
+  .main-nav > .nav {
+    display: none;
+  }
 }

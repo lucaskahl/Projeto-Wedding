@@ -32,3 +32,12 @@
   height: 1px;
   background-color: #e5e5e5;
 }
+
+
+@media (max-width: $bp-mobile) {
+  .quote-section .container > h3 {
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
