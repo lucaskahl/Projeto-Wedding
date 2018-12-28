@@ -64,3 +64,8 @@ let total = sliders.length - 1;
 /* End Slider */
 
 
+// TO DO
+
+// Adicionar event listener click para menu
+// adicionar classe de visible
+// class .toggle para cada onClick
