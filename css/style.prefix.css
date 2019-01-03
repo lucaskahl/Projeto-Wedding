@@ -42,7 +42,7 @@ img {
 ----------------------------------------------------*/
 @font-face {
   font-family: noelan;
-  src: url(../../fonts/noelan/noelan.woff2); }
+  src: url(../fonts/noelan/noelan.woff2); }
 
 .text-center {
   display: block;
@@ -135,12 +135,12 @@ img {
   cursor: pointer; }
 
 .about-us .couple .content .image.-woman {
-  background-image: url(../../img/bride.jpg);
+  background-image: url(../img/bride.jpg);
   background-size: cover;
   background-position: top center; }
 
 .about-us .couple .content .image.-man {
-  background-image: url(../../img/groom.jpg);
+  background-image: url(../img/groom.jpg);
   background-size: cover;
   background-position: top center; }
 
@@ -796,7 +796,7 @@ html {
   color: #FFF; }
 
 .main-header {
-  background-image: url(../../img/hero.jpg);
+  background-image: url(../img/hero.jpg);
   background-size: cover;
   background-position: top center;
   height: 90vh;
