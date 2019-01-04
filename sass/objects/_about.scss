@@ -114,11 +114,12 @@
   .about-us .couple .content .image {
     margin: 0 auto;
     cursor: auto;
+    width: auto;
   }
 
   .about-us .couple .content .text {
     position: static;
-    width: 545px;
+    width: auto;
     transform: none;
     opacity: 1;
 

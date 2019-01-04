@@ -67,3 +67,26 @@
   }
 }
 
+@media (max-width: $bp-mobile-smallest) {
+
+  .main-header .banner > .title {
+    font-size: 30px;
+  }
+  
+  .main-header .banner > .date {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 428px) {
+
+  .main-header .banner > .title {
+    font-size: 25px;
+  }
+  
+  .main-header .banner > .date {
+    font-size: 20px;
+  }
+
+}
+
